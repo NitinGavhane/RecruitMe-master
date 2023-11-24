@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "459047686782",
+    "project_id": "recruitme-55763",
+    "storage_bucket": "recruitme-55763.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459047686782:android:6960344e6a2d515a56be2f",
+        "android_client_info": {
+          "package_name": "com.example.recruitme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459047686782-o7a88vqmn1g0fppcp4bl2q0j7ophg5od.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg5GfIqQYcP_st2ztauSzqw_SGYZkQCZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459047686782-o7a88vqmn1g0fppcp4bl2q0j7ophg5od.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459047686782:android:b6b252e403f13e9456be2f",
+        "android_client_info": {
+          "package_name": "com.project.recruitme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459047686782-o7a88vqmn1g0fppcp4bl2q0j7ophg5od.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg5GfIqQYcP_st2ztauSzqw_SGYZkQCZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459047686782-o7a88vqmn1g0fppcp4bl2q0j7ophg5od.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

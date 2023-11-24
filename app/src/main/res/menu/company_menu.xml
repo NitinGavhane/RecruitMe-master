@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/CompanyDashboard"
+        android:icon="@drawable/dashboard_icon"
+        android:title="@string/menu_dashboard" />
+    <item
+        android:id="@+id/CompanyJobs"
+        android:icon="@drawable/ic_jobs"
+        android:title="@string/jobs" />
+
+    <item
+        android:id="@+id/CompanyProfile"
+        android:icon="@drawable/profile_icon"
+        android:title="@string/menu_profile" />
+</menu>

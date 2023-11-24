@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/StudentDashboard"
+        android:icon="@drawable/dashboard_icon"
+        android:title="@string/menu_dashboard" />
+    <item
+        android:id="@+id/StudentJobs"
+        android:icon="@drawable/ic_jobs"
+        android:title="@string/jobs" />
+
+    <item
+        android:id="@+id/StudentProfile"
+        android:icon="@drawable/profile_icon"
+        android:title="@string/menu_profile" />
+</menu>

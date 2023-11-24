@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="48dp"
+    android:paddingHorizontal="32dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AppTitle"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        />
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/login"
+        android:contentDescription="@string/LoginMessage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/LoginTitle"
+        android:layout_marginTop="24dp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/LoginMessage"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:padding="12dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:background="@drawable/edittext_background"
+        android:id="@+id/LoginEmail"
+        android:autofillHints="emailAddress" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:padding="12dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_background"
+        android:id="@+id/LoginPassword"
+        android:autofillHints="password"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/background"
+        android:layout_marginVertical="18dp"
+        android:text="@string/LoginTitle"
+        android:background="@drawable/button_background"
+        android:id="@+id/LoginButton"
+        />
+
+    <ProgressBar
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:id="@+id/LoginProgress"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@color/accent"
+        android:textAlignment="center"
+        android:text="@string/forgot_password"
+        android:id="@+id/ForgotPassword"
+        />
+</LinearLayout>

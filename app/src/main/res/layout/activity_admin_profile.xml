@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminProfileActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="32dp"
+            android:paddingHorizontal="16dp"
+            android:orientation="vertical"
+            tools:context=".AdminProfileActivity">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/AppTitle"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="32sp"
+                android:layout_marginBottom="32dp"
+                />
+
+            <ImageView
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                app:srcCompat="@drawable/administrator"
+                android:contentDescription="@string/administrator" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/administrator"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:textSize="24sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="16dp"
+                android:layout_marginBottom="32dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="8dp"
+                    android:text="@string/email_label"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingHorizontal="8dp"
+                    android:textStyle="bold"
+                    android:text=""
+                    android:id="@+id/AdminProfileEmail"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/background"
+                android:layout_marginVertical="8dp"
+                android:text="@string/request_password_update"
+                android:id="@+id/AdminPasswordReset"
+                android:background="@drawable/button_background"
+                />
+            <ProgressBar
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                android:id="@+id/LogoutProgress"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:textColor="@color/background"
+                android:textStyle="bold"
+                android:text="@string/logout"
+                android:id="@+id/AdminLogout"
+                android:background="@drawable/button_error_background"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        app:menu="@menu/admin_menu"
+        android:id="@+id/AdminNavigation"
+        android:background="@drawable/bottom_navigation_background"
+        />
+
+</LinearLayout>

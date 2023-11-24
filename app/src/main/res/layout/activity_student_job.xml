@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".StudentJobActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:id="@+id/BackButton"
+            app:srcCompat="@drawable/ic_back"
+            android:contentDescription="@string/back_button" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/job_details"
+            android:paddingHorizontal="10dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:textSize="20sp"
+        android:id="@+id/jobTitleField"
+        android:hint="@string/job_title"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:textSize="20sp"
+
+        android:hint="@string/description"
+        android:id="@+id/jobDescriptionField"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:text="@string/salary_range_in_lpa"
+        android:id="@+id/salaryRangeField"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:textSize="20sp"
+        android:hint="@string/skills"
+        android:id="@+id/skillsField"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:textSize="20sp"
+        android:hint="@string/company"
+        android:id="@+id/CompanyField"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:textSize="20sp"
+        android:hint="@string/location"
+        android:id="@+id/CompanyLocation"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/background"
+        android:layout_marginVertical="20dp"
+        android:text="@string/apply"
+        android:background="@drawable/button_background"
+        android:id="@+id/ApplyButton"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:textSize="20sp"
+        android:hint="@string/already_applied"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:id="@+id/AlreadyApplied"
+        />
+
+    <ProgressBar
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:id="@+id/ApplicationProgress"
+        />
+
+</LinearLayout>

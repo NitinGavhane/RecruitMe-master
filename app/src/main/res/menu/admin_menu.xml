@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/adminDashboard"
+        android:icon="@drawable/dashboard_icon"
+        android:title="@string/menu_dashboard" />
+    <item
+        android:id="@+id/adminProfile"
+        android:icon="@drawable/profile_icon"
+        android:title="@string/menu_profile" />
+</menu>
